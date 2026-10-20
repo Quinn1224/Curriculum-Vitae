@@ -33,8 +33,9 @@ export const work = [
 		org: "ProLeiT",
 		org_url: "https://www.proleit.de/",
 		location: "Herzogenaurach",
-		skills: "Project Engineering im MES Bereich mit Plant iT. Kundenspezifische Softwarelösungen im verfahrenstechnischen Bereich, hauptsächlich mit C#/WPF und SQL. "
-		+"Projektspezifische Operation Manager Add-Ins (z. B. Frontend LVS EXE), Klassendialoge für User-Klassen, Datenverarbeitungsskripte im SQL Kontext, Hochrüstungen und vieles mehr. "
+		skills: "Kundenspefifische Softwarelösungen sowie Standardisierung im Plant iT System mit Schwerpunkt C#/WPF und SQL.\n"
+		+"Operation Manager Add-Ins (z. B. LVS EXE), Klassendialoge & Hochrüstungen der Userklassen, Datenverarbeitungsskripte in SQL, BOS Skripte und vieles mehr"
+		
 	}, 
 	{
 		from: "2001",
