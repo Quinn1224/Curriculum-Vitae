@@ -4,7 +4,8 @@ export const designation = "Software Entwicklerin"
 export const location = "Erlangen/Deutschland"
 export const email = "verena.mennen@outlook.de"
 export const tel = "0157 55181980"
-export const address = "Marie-Curie-Str. 31 in 91052 Erlangen"
+export const address1 = "Marie-Curie-Str. 31"
+export const address2 = "91052 Erlangen"
 
 
 // Contact --> #contact section
@@ -86,6 +87,12 @@ export const projects = [
 		url: "https://github.com/Quinn1224/Youtube-Shorts-Remover",
 		tech: "Mozilla Firefox Add-In Verwaltung & Release",
 	},
+
+	{
+		title: "Diverse weitere kleine Softwaretools",
+		description: "App-Entwicklung mit C# und .NET Maui, Spieleentwicklung mit Godot 4 und vieles mehr",
+		languages: "C# & .NET Maui sowie WPF, Godot 4, Java & JavaFX, ...",
+	},
 	{
 		title: "American Football",
 		description: "Ich spiele bei den TB Rebels in Erlangen. Die Football-Seite auf der Website des Sportvereins ist ebenfalls von mir :)",
@@ -109,8 +116,8 @@ export const education = [
 		to: "2021",
 		institute: "Hochschule Osnabrück",
 		course: "B. Sc. Bioverfahrenstechnik",
-		thesis: "Rheolorische Untersuchung von Bierhefeextraktpasten",
-		grade: "1.9",
+		thesis: "Rheologische Untersuchung von Bierhefeextraktpasten",
+		grade: "Abschlussnote: 1.9",
 		location: "Osnabrück"
 	},
 	{
@@ -121,6 +128,21 @@ export const education = [
 		location: "Lengerich"
 	}
 ]
+
+// Projects --> #project section
+export const hobbies = [
+	{
+		title: "American Football",
+		description: "Ich spiele seit 2 Jahren bei den TB Rebels in Erlangen. Die Football-Seite auf der Website des Sportvereins ist ebenfalls von mir :)",
+		url: "https://turnerbund.de/football/",
+		tech: "Wordpress",
+	},
+	{
+		title: "Krafttraining",
+		description: "Regelmäßiges Training im Gym",
+	},  
+]
+
 
 
 

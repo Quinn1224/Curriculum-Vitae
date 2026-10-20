@@ -40,7 +40,7 @@ import Card from "./Card.astro";
         })
       }
     </AccordionLayout>
-    <AccordionLayout title={"Softwareprojekte & weitere Hobbies"} icon={"ion:md-build"}>
+    <AccordionLayout title={"Softwareprojekte aus Freizeit und Uni"} icon={"ion:md-build"}>
       {
         CONTENT.projects.map((item) => {
           return (
@@ -51,6 +51,21 @@ import Card from "./Card.astro";
               tags={item.tech}
               url={item.url}
               url_name={"Open Project"}
+            />
+          );
+        })
+      }
+    </AccordionLayout>
+    <AccordionLayout title={"Weitere Hobbies"} icon={"ion:md-build"}>
+      {
+        CONTENT.hobbies.map((item) => {
+          return (
+            <Card
+              title={item.title}
+              description={item.description}
+              tags={item.tech}
+              url={"#"}
+              url_name={""}
             />
           );
         })
