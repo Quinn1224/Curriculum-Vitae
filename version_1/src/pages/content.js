@@ -7,23 +7,6 @@ export const tel = "0157 55181980"
 export const address1 = "Marie-Curie-Str. 31"
 export const address2 = "91052 Erlangen"
 
-
-// Contact --> #contact section
-export const contact = [
-	{
-		title: "Email",
-		description: "verena.mennen@outlook.de",
-	},
-	{
-		title: "Tel.",
-		description: "0157 55181980",
-	},
-	{
-		title: "Adresse",
-		description: "Marie-Curie-Str. 31 in 91052 Erlangen",
-	}
-]
-
 // Work Experience --> #work section
 export const work = [
 	{
@@ -34,7 +17,7 @@ export const work = [
 		org_url: "https://www.proleit.de/",
 		location: "Herzogenaurach",
 		skills: "Kundenspefifische Softwarelösungen sowie Standardisierung im Plant iT System mit Schwerpunkt C#/WPF und SQL.\n"
-		+"Operation Manager Add-Ins (z. B. LVS EXE), Klassendialoge & Hochrüstungen der Userklassen, Datenverarbeitungsskripte in SQL, BOS Skripte und vieles mehr"
+		+"Operation Manager Add-Ins (z. B. LVS EXE), Klassendialoge & Hochrüstungen der Userklassen, verschiedenste Datenverarbeitungsskripte in SQL, BOS Skripte und vieles mehr"
 		
 	}, 
 	{
@@ -45,7 +28,7 @@ export const work = [
 		org_url: "https://www.proleit.de/",
 		location: "Herzogenaurach",
 		skills: "Schwerpunkt MES & Hochsprachen. Mitarbeit an Softwareprojekten im Bereich Datenbanken, Schnittstellen, Erstellung von Hochrüstungspakten (Update iT's) für Automatisierungsklassen, "
-		+"Bediendialoge für User Klassen wie z. B. 1181 und vieles mehr.\n "
+		+"Bediendialoge für User Klassen wie z. B. C1112 und vieles mehr.\n "
 		+"Teilnahme an Schulungen zu Step 7 AWL, C#, SQL, Batch iT, etc. und Anwendung des erworbenen Wissens."
 	}, 
 	{
@@ -53,7 +36,7 @@ export const work = [
 		to: "2017",
 		role: "Technisches Jahrespraktikum in den Bereichen Laborgerätebau, Softwaretesting und Umwelttechnik",
 		location: "Berlin",
-		skills: "Handwerkliches & Arbeiten rund um Bestellungen sowie kleine Automatisierungen mit Google Apps Script"
+		skills: "Einmessen von Prozessrefraktometern, Softwaretesting und handwerkliche Arbeiten im umwelttechnischen Bereich."
 	}, 
 	{
 		from: "2016",
@@ -70,7 +53,7 @@ export const projects = [
 		description: "Ein Online Shop um Merchandise der Erlangen Rebels zu verkaufen. Die Produkte & Bestellungen sind über eine Administrationsoberfläche ohne Programmierkenntnisse frei konfigurierbar & verwaltbar.",
 		languages: "Python mit Framework Django, HTML, CSS, Docker",
 		url: "https://github.com/Quinn1224/Merchandise-Shop",
-		tech: "Konfiguration eines Webservers mit nginx, Docker, Versions- & Release Management mit Git, Zertifikatsmanagement mit Certbot. Anbindung SMPT Server.",
+		tech: "Konfiguration eines Webservers mit nginx, Docker, Versions- & Release Management mit Git, Zertifikatsmanagement mit Certbot. Anbindung SMPT Server, DuckDNS.",
 	},
 	{
 		title: "Football Quiz",
@@ -79,7 +62,7 @@ export const projects = [
 		+"Spieler*innen erhalten Punkte, Statistik und Einblick in ein Teaminternes Leaderboard. Das Quiz verfügt über ein Nutzermanagement mit Authentifizierung.",
 		languages: "Python mit Framework Django, HTML, CSS",
 		url: "https://github.com/Quinn1224/Quiz",
-		tech: "Konfiguration eines Webservers mit nginx, Docker, Versions- & Release Management mit Git, Zertifikatsmanagement mit Certbot ",
+		tech: "Konfiguration eines Webservers mit nginx, Docker, Versions- & Release Management mit Git, Zertifikatsmanagement mit Certbot, Domain per DuckDNS. ",
 	},
 	{
 		title: "Youtube Shorts Remover",
@@ -90,15 +73,9 @@ export const projects = [
 	},
 
 	{
-		title: "Diverse weitere kleine Softwaretools",
-		description: "App-Entwicklung mit C# und .NET Maui, Spieleentwicklung mit Godot 4 und vieles mehr",
+		title: "Diverse weitere kleine Softwaretools & Minispiele",
+		description: "App-Entwicklung mit C# und .NET Maui, Entwicklung eines Idle Games in Godot 4 und vieles mehr",
 		languages: "C# & .NET Maui sowie WPF, Godot 4, Java & JavaFX, ...",
-	},
-	{
-		title: "American Football",
-		description: "Ich spiele bei den TB Rebels in Erlangen. Die Football-Seite auf der Website des Sportvereins ist ebenfalls von mir :)",
-		url: "https://turnerbund.de/football/",
-		tech: "Wordpress",
 	}
 ]
 
@@ -109,7 +86,7 @@ export const education = [
 		to: "vrs. Ende 2027",
 		institute: "FAU Erlangen",
 		course: "B. Sc. Informatik",
-		grade: "Aktueller Durchschnitt: 2.0",
+		grade: "Aktueller Durchschnitt: 2.1",
 		location: "Erlangen",		
 	},
 	{
@@ -126,6 +103,7 @@ export const education = [
 		to: "2016",
 		institute: "Hannah Arendt Gymnasium",
 		course: "Abitur (Allgemeine Hochschulreife)",
+		grade: "Abschlussnote: 1.9",
 		location: "Lengerich"
 	}
 ]
