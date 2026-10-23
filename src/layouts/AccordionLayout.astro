@@ -1,11 +1,9 @@
 ---
 import { Icon } from "astro-icon";
-import BaseLayout from "./BaseLayout.astro";
 const { title, icon } = Astro.props;
 ---
 
-<BaseLayout>
-    <li class="relative border-b border-text/30" x-data="{selected:null}">
+<li class="relative border-b border-text/30" x-data="{selected:null}">
   <button
     type="button"
     class="w-full px-3 py-3 text-left"
@@ -39,4 +37,3 @@ const { title, icon } = Astro.props;
   </div>
 </li>
 
-</BaseLayout>

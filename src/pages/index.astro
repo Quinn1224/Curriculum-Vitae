@@ -12,6 +12,7 @@ import Footer from "../components/Footer.astro";
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&display=swap" rel="stylesheet">
+		<meta name='robots' content='noindex,nofollow,noarchive,nosnippet,noimageindex' />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>CV | {CONTENT.name}</title>
@@ -27,7 +28,7 @@ import Footer from "../components/Footer.astro";
 				<div class="bg-blue-900 hover:scale-x-[2] w-full h-1.5" id="three"></div>
 		</article>
 
-		<main class="mx-auto flex-grow max-h-[90vh] md:max-h-[70vh] max-w-3xl overflow-y-scroll grid gap-5 p-5 w-[95vw]">
+		<main class="mx-auto flex-grow max-w-3xl overflow-y-scroll grid gap-5 p-5 w-[95vw]">
 			<Container />
 		</main>
 
