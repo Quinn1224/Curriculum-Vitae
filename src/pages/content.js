@@ -17,7 +17,7 @@ export const work = [
 		org_url: "https://www.proleit.de/",
 		location: "Herzogenaurach",
 		skills: "Kundenspefifische Softwarelösungen sowie Standardisierung im Plant iT System mit Schwerpunkt C#/WPF und SQL.\n"
-		+"Operation Manager Add-Ins (z. B. LVS EXE), Klassendialoge & Hochrüstungen der Userklassen, verschiedenste Datenverarbeitungsskripte in SQL, BOS Skripte und vieles mehr"
+		+"Operation Manager Add-Ins, Klassendialoge & Hochrüstungen der Userklassen, verschiedenste Datenverarbeitungsskripte in SQL, BOS Skripte uvm."
 		
 	}, 
 	{
@@ -27,8 +27,8 @@ export const work = [
 		org: "ProLeiT",
 		org_url: "https://www.proleit.de/",
 		location: "Herzogenaurach",
-		skills: "Schwerpunkt MES & Hochsprachen. Mitarbeit an Softwareprojekten im Bereich Datenbanken, Schnittstellen, Erstellung von Hochrüstungspakten (Update iT's) für Automatisierungsklassen, "
-		+"Bediendialoge für User Klassen wie z. B. C1112 und vieles mehr.\n "
+		skills: "Schwerpunkt MES & Hochsprachen. Mitarbeit an Softwareprojekten im Bereich Datenbanken, Schnittstellen, Erstellung von Hochrüstungspaketen (Update iT's) für Automatisierungsklassen, "
+		+"Bediendialoge für zahlreiche Userklassen\n "
 		+"Teilnahme an Schulungen zu Step 7 AWL, C#, SQL, Batch iT, etc. und Anwendung des erworbenen Wissens."
 	}, 
 	{
@@ -36,13 +36,13 @@ export const work = [
 		to: "2017",
 		role: "Technisches Jahrespraktikum in den Bereichen Laborgerätebau, Softwaretesting und Umwelttechnik",
 		location: "Berlin",
-		skills: "Einmessen von Prozessrefraktometern, Softwaretesting und handwerkliche Arbeiten im umwelttechnischen Bereich."
+		skills: "Einmessen & Referenzdatenerhebung von Prozessrefraktometern, Softwaretesting und handwerkliche Arbeiten im umwelttechnischen Bereich."
 	}, 
 	{
 		from: "2016",
 		to: "2021",
-		role: "Diverse Aushilfs- und Saisonjobs in Taschenproduktion, Einzelhandel, Möbelbau und E-Commerce",
-		skills: "Handwerkliches & Arbeiten rund um Bestellungen sowie kleine Automatisierungen mit Google Apps Script"
+		role: "Diverse Aushilfs- und Saisonjobs neben Studium und Arbeit in Taschenproduktion, Einzelhandel, Möbelbau und E-Commerce",
+		skills: "Handwerkliches & Arbeiten rund um Bestellprozesse sowie kleine Automatisierungen mit Google Apps Script"
 	}, 
 ]
 
