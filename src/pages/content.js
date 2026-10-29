@@ -1,6 +1,6 @@
 // Personal Information --> #hero section
 export const name = "Verena Mennen"
-export const designation = "Software Entwicklerin"
+export const designation = "Software Developer"
 export const location = "Erlangen/Deutschland"
 export const email = "verena.mennen@outlook.de"
 export const tel = "0157 55181980"
@@ -16,8 +16,8 @@ export const work = [
 		org: "ProLeiT",
 		org_url: "https://www.proleit.de/",
 		location: "Herzogenaurach",
-		skills: "Kundenspefifische Softwarelösungen sowie Standardisierung im Plant iT System mit Schwerpunkt C#/WPF und SQL.\n"
-		+"Operation Manager Add-Ins, Klassendialoge & Hochrüstungen der Userklassen, verschiedenste Datenverarbeitungsskripte in SQL, BOS Skripte uvm."
+		skills: `Kundenspefifische Softwarelösungen sowie Standardisierung im Plant iT System mit Schwerpunkt C#/WPF und SQL.\n
+		Operation Manager Add-Ins, Klassendialoge & Hochrüstungen der Userklassen, verschiedenste Datenverarbeitungsskripte in SQL, BOS Skripte uvm.`
 		
 	}, 
 	{
