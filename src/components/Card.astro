@@ -15,7 +15,9 @@ const { timeframe, title, description, url, tags, url_name, languages, thesis, g
     <div class="self-start justify-self-start text-left">
         <p class="text-lg text-text/80">{title}</p>
         <p class="text-sm text-text/70">{description}</p>
+        {languages && (
         <p class="mt-1 text-sm text-text/60">Sprachen: {languages}</p>
+        )}
           {thesis && (
         <p class="text-sm text-text/70">Thema der Bachelorarbeit: "{thesis}"</p>)}
             {grade && (
@@ -24,11 +26,13 @@ const { timeframe, title, description, url, tags, url_name, languages, thesis, g
     </div>
 
     <div class="w-full self-start justify-self-end">
+    {url && (
         <a href={url} target="_blank" class="text-base text-right text-text/60 hover:text-text/80 flex justify-center items-center">
             {url_name}
             {
                url !== "#" && <Icon name="icon-park-outline:unlink" class="w-4 h-4 ml-2" />
             }
         </a>
+         )}
     </div>
 </div>

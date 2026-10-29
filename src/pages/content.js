@@ -87,7 +87,8 @@ export const education = [
 		institute: "FAU Erlangen",
 		course: "B. Sc. Informatik",
 		grade: "Aktueller Durchschnitt: 2.1",
-		location: "Erlangen",		
+		location: "Erlangen",	
+		url: "https://www.fau.de/"	
 	},
 	{
 		from: "2017",
@@ -96,7 +97,8 @@ export const education = [
 		course: "B. Sc. Bioverfahrenstechnik",
 		thesis: "Rheologische Untersuchung von Bierhefeextraktpasten",
 		grade: "Abschlussnote: 1.9",
-		location: "Osnabrück"
+		location: "Osnabrück",
+		url: "https://www.hs-osnabrueck.de/"	
 	},
 	{
 		from: "2008",
