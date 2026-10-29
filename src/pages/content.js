@@ -66,7 +66,7 @@ export const projects = [
 	},
 	{
 		title: "Youtube Shorts Remover",
-		description: "Ein kleines Firefox Add-In um Youtube Shorts auszublenden",
+		description: "Ein kleines Firefox Add-In um Youtube Shorts & Playables auszublenden",
 		languages: "JavaScript",
 		url: "https://github.com/Quinn1224/Youtube-Shorts-Remover",
 		tech: "Mozilla Firefox Add-In Verwaltung & Release",
