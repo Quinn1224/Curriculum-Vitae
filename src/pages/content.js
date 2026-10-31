@@ -17,7 +17,7 @@ export const work = [
 		org_url: "https://www.proleit.de/",
 		location: "Herzogenaurach",
 		skills: `Kundenspefifische Softwarelösungen sowie Standardisierung im Plant iT System mit Schwerpunkt C#/WPF und SQL.\n
-		Operation Manager Add-Ins, Klassendialoge & Hochrüstungen der Userklassen, verschiedenste Datenverarbeitungsskripte in SQL, BOS Skripte uvm.`
+		Operation Manager Add-Ins, Klassendialoge & Hochrüstungen der Userklassen (Dialog & Datenbank), verschiedenste Datenverarbeitungsskripte in SQL, BOS Skripte uvm.`
 		
 	}, 
 	{
@@ -51,9 +51,9 @@ export const projects = [
 	{
 		title: "Merchandise Shop - aktuell in Entwicklung",
 		description: "Ein Online Shop um Merchandise der Erlangen Rebels zu verkaufen. Die Produkte & Bestellungen sind über eine Administrationsoberfläche ohne Programmierkenntnisse frei konfigurierbar & verwaltbar.",
-		languages: "Python mit Framework Django, HTML & CSS, Docker",
-		url: "https://github.com/Quinn1224/Merchandise-Shop",
-		tech: "Konfiguration eines Webservers mit nginx, Docker, Versions- & Release Management mit Git, Zertifikatsmanagement mit Certbot. Anbindung SMPT Server, DuckDNS.",
+		languages: "Python mit Framework Django, HTML & CSS",
+		url: "https://shop.erlangenrebels.duckdns.org/",
+		tech: "Konfiguration eines Webservers mit nginx, Docker, Versions- & Release Management mit Git, Zertifikatsmanagement mit Certbot. Anbindung SendGrid für E-Mail Versand, Domain für Entwicklungsphase per DuckDNS.",
 	},
 	{
 		title: "Football Quiz - aktuell in Entwicklung",
@@ -61,17 +61,23 @@ export const projects = [
 		+"Fragen, Kategorien und Testgruppen sind in einer Administrationsfläche frei konfigurierbar. Es existieren unterschiedliche Fragetypen (z. B. Multiple Choice mit Text & Bild)."
 		+"Spieler*innen erhalten Punkte, Statistik und Einblick in ein Teaminternes Leaderboard. Das Quiz verfügt über ein Nutzermanagement mit Authentifizierung.",
 		languages: "Python mit Framework Django, HTML, CSS",
-		url: "https://github.com/Quinn1224/Quiz",
-		tech: "Konfiguration eines Webservers mit nginx, Docker, Versions- & Release Management mit Git, Zertifikatsmanagement mit Certbot, Domain per DuckDNS. ",
+		url: "https://quiz.erlangenrebels.duckdns.org",
+		tech: "Konfiguration eines Webservers mit nginx, Docker, Versions- & Release Management mit Git, Zertifikatsmanagement mit Certbot, Domain für Entwicklungsphase per DuckDNS. ",
 	},
 	{
 		title: "Youtube Shorts Remover",
 		description: "Ein kleines Firefox Add-In um Youtube Shorts & Playables auszublenden",
 		languages: "JavaScript",
 		url: "https://github.com/Quinn1224/Youtube-Shorts-Remover",
-		tech: "Mozilla Firefox Add-In Verwaltung & Release",
+		tech: "Mozilla Firefox Add-In Verwaltung & Release, Git zur Versionierung",
 	},
-
+	{
+		title: "Scale Data Extractor",
+		description: "Skripte um die BLE Datenpakete einer Xiaomi S400 Waage auszulesen und mit Plotly anschließend grafisch aufzubereiten. Historische Daten können über eine API ebenfalls vollständig abgefragt & visualisiert werden.",
+		languages: "Python",
+		url: "",
+		tech: "Git zur Versionierung",
+	},
 	{
 		title: "Diverse weitere kleine Softwaretools & Minispiele",
 		description: "App-Entwicklung mit C# und .NET Maui, Entwicklung eines Idle Games in Godot 4, Erstellung dieser Website mit Astro, uvm.",
@@ -83,9 +89,9 @@ export const projects = [
 export const education = [
 	{
 		from: "2023",
-		to: "vrs. Ende 2027",
+		to: "vrs. Mitte 2027",
 		institute: "FAU Erlangen",
-		course: "B. Sc. Informatik",
+		course: "Informatik (B.Sc.)",
 		grade: "Aktueller Durchschnitt: 2.1",
 		location: "Erlangen",	
 		url: "https://www.fau.de/"	
@@ -94,7 +100,7 @@ export const education = [
 		from: "2017",
 		to: "2021",
 		institute: "Hochschule Osnabrück",
-		course: "B. Sc. Bioverfahrenstechnik",
+		course: "Bioverfahrenstechnik in Agrar- und Lebensmittelwirtschaft (B.Sc.)",
 		thesis: "Untersuchung prozessrelevanter Einflussfaktoren auf das rheologische Verhalten von Bierhefeextraktpasten.",
 		grade: "Abschlussnote: 1.9",
 		location: "Osnabrück",
@@ -115,11 +121,12 @@ export const hobbies = [
 	{
 		title: "American Football",
 		description: "Ich spiele seit 2 Jahren bei den TB Rebels in Erlangen. Die Football-Seite auf der Website des Sportvereins ist ebenfalls von mir :)",
+		institute: "Turnerbund Erlangen",
 		url: "https://turnerbund.de/football/",
 		tech: "Wordpress",
 	},
 	{
-		title: "Krafttraining, Rennrad fahren",
+		title: "Krafttraining, Rennrad fahren, Wandern im Sommer, etc.",
 		description: "Regelmäßiges Training im Gym & Fahrradtouren",
 	},  
 ]
