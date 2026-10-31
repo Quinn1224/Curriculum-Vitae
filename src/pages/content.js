@@ -28,7 +28,7 @@ export const work = [
 		org_url: "https://www.proleit.de/",
 		location: "Herzogenaurach",
 		skills: "Schwerpunkt MES & Hochsprachen. Mitarbeit an Softwareprojekten im Bereich Datenbanken, Schnittstellen, Erstellung von Hochrüstungspaketen (Update iT's) für Automatisierungsklassen, "
-		+"Bediendialoge für zahlreiche Userklassen\n "
+		+"Bediendialoge für zahlreiche Userklassen.\n "
 		+"Teilnahme an Schulungen zu Step 7 AWL, C#, SQL, Batch iT, etc. und Anwendung des erworbenen Wissens."
 	}, 
 	{
@@ -42,21 +42,21 @@ export const work = [
 		from: "2016",
 		to: "2021",
 		role: "Diverse Aushilfs- und Saisonjobs neben Studium und Arbeit in Taschenproduktion, Einzelhandel, Möbelbau und E-Commerce",
-		skills: "Handwerkliches & Arbeiten rund um Bestellprozesse sowie kleine Automatisierungen mit Google Apps Script"
+		skills: "Handwerkliches & Arbeiten rund um Bestellprozesse sowie kleine Automatisierungen mit Google Apps Script."
 	}, 
 ]
 
 // Projects --> #project section
 export const projects = [
 	{
-		title: "Merchandise Shop",
+		title: "Merchandise Shop - aktuell in Entwicklung",
 		description: "Ein Online Shop um Merchandise der Erlangen Rebels zu verkaufen. Die Produkte & Bestellungen sind über eine Administrationsoberfläche ohne Programmierkenntnisse frei konfigurierbar & verwaltbar.",
-		languages: "Python mit Framework Django, HTML, CSS, Docker",
+		languages: "Python mit Framework Django, HTML & CSS, Docker",
 		url: "https://github.com/Quinn1224/Merchandise-Shop",
 		tech: "Konfiguration eines Webservers mit nginx, Docker, Versions- & Release Management mit Git, Zertifikatsmanagement mit Certbot. Anbindung SMPT Server, DuckDNS.",
 	},
 	{
-		title: "Football Quiz",
+		title: "Football Quiz - aktuell in Entwicklung",
 		description: "Ein Quiz mit dem Regelwerk und Playbook meines American Football Teams gelernt werden können. "
 		+"Fragen, Kategorien und Testgruppen sind in einer Administrationsfläche frei konfigurierbar. Es existieren unterschiedliche Fragetypen (z. B. Multiple Choice mit Text & Bild)."
 		+"Spieler*innen erhalten Punkte, Statistik und Einblick in ein Teaminternes Leaderboard. Das Quiz verfügt über ein Nutzermanagement mit Authentifizierung.",
@@ -74,7 +74,7 @@ export const projects = [
 
 	{
 		title: "Diverse weitere kleine Softwaretools & Minispiele",
-		description: "App-Entwicklung mit C# und .NET Maui, Entwicklung eines Idle Games in Godot 4 und vieles mehr",
+		description: "App-Entwicklung mit C# und .NET Maui, Entwicklung eines Idle Games in Godot 4, Erstellung dieser Website mit Astro, uvm.",
 		languages: "C# & .NET Maui sowie WPF, Godot 4, Java & JavaFX, ...",
 	}
 ]
@@ -95,7 +95,7 @@ export const education = [
 		to: "2021",
 		institute: "Hochschule Osnabrück",
 		course: "B. Sc. Bioverfahrenstechnik",
-		thesis: "Rheologische Untersuchung von Bierhefeextraktpasten",
+		thesis: "Untersuchung prozessrelevanter Einflussfaktoren auf das rheologische Verhalten von Bierhefeextraktpasten.",
 		grade: "Abschlussnote: 1.9",
 		location: "Osnabrück",
 		url: "https://www.hs-osnabrueck.de/"	
@@ -119,8 +119,8 @@ export const hobbies = [
 		tech: "Wordpress",
 	},
 	{
-		title: "Krafttraining",
-		description: "Regelmäßiges Training im Gym",
+		title: "Krafttraining, Rennrad fahren",
+		description: "Regelmäßiges Training im Gym & Fahrradtouren",
 	},  
 ]
 
