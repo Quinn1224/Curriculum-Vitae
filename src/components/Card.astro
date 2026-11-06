@@ -1,9 +1,9 @@
 ---
 import { Icon } from "astro-icon";
-const { timeframe, title, description, url, tags, url_name, languages, thesis, grade } = Astro.props
+const { timeframe, title, description, url, tags, url_name, languages, thesis, grade, institute, last_row } = Astro.props
 ---
 
-<div class:list={["grid", timeframe ? "grid-cols-[25%_1fr_25%]" : "grid-cols-[1fr_30%]", "grid-rows-1 w-full p-2 place-items-center border-b-[1px] border-dashed py-8 border-text/25"]}>
+<div class:list={["grid", timeframe ? " grid-cols-[25%_1fr_25%]" : " grid-cols-[1fr_30%]", " grid-rows-1 w-full p-2 place-items-center", last_row ? " " : " border-b-[1px] border-dashed", " py-8 border-text/25"]}>
     {timeframe && (
         <div class="self-start justify-self-start">
             <p class="text-text/50 text-base">
@@ -14,7 +14,10 @@ const { timeframe, title, description, url, tags, url_name, languages, thesis, g
 
     <div class="self-start justify-self-start text-left">
         <p class="text-lg text-text/80">{title}</p>
-        <p class="mt-1 text-sm text-text/70">{description}</p>
+        {institute && (
+        <p class="mt-1 text-sm text-text/70">{institute}</p>
+        )}
+        <p class="mt-1 text-sm text-text/70">{description}</p>   
         {languages && (
         <p class="mt-1 text-sm text-text/60">Sprachen: {languages}</p>
         )}

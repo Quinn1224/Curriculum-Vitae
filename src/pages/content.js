@@ -17,7 +17,8 @@ export const work = [
 		org_url: "https://www.proleit.de/",
 		location: "Herzogenaurach",
 		skills: `Kundenspefifische Softwarelösungen sowie Standardisierung im Plant iT System mit Schwerpunkt C#/WPF und SQL.\n
-		Operation Manager Add-Ins, Klassendialoge & Hochrüstungen der Userklassen (Dialog & Datenbank), verschiedenste Datenverarbeitungsskripte in SQL, BOS Skripte uvm.`
+		Operation Manager Add-Ins, Klassendialoge & Hochrüstungen der Userklassen (Dialog & Datenbank), verschiedenste Datenverarbeitungsskripte in SQL, BOS Skripte uvm.`,
+
 		
 	}, 
 	{
@@ -29,20 +30,23 @@ export const work = [
 		location: "Herzogenaurach",
 		skills: "Schwerpunkt MES & Hochsprachen. Mitarbeit an Softwareprojekten im Bereich Datenbanken, Schnittstellen, Erstellung von Hochrüstungspaketen (Update iT's) für Automatisierungsklassen, "
 		+"Bediendialoge für zahlreiche Userklassen.\n "
-		+"Teilnahme an Schulungen zu Step 7 AWL, C#, SQL, Batch iT, etc. und Anwendung des erworbenen Wissens."
+		+"Teilnahme an Schulungen zu Step 7 AWL, C#, SQL, Batch iT, etc. und Anwendung des erworbenen Wissens.",
+	
 	}, 
 	{
 		from: "2016",
 		to: "2017",
 		role: "Technisches Jahrespraktikum in den Bereichen Laborgerätebau, Softwaretesting und Umwelttechnik",
 		location: "Berlin",
-		skills: "Einmessen & Referenzdatenerhebung von Prozessrefraktometern, Softwaretesting und handwerkliche Arbeiten im umwelttechnischen Bereich."
+		skills: "Einmessen & Referenzdatenerhebung von Prozessrefraktometern, Softwaretesting und handwerkliche Arbeiten im umwelttechnischen Bereich.",
+	
 	}, 
 	{
 		from: "2016",
 		to: "2021",
 		role: "Diverse Aushilfs- und Saisonjobs neben Studium und Arbeit in Taschenproduktion, Einzelhandel, Möbelbau und E-Commerce",
-		skills: "Handwerkliches & Arbeiten rund um Bestellprozesse sowie kleine Automatisierungen mit Google Apps Script."
+		skills: "Handwerkliches & Arbeiten rund um Bestellprozesse sowie kleine Automatisierungen mit Google Apps Script.",
+		last_row: 'true'
 	}, 
 ]
 
@@ -82,6 +86,7 @@ export const projects = [
 		title: "Diverse weitere kleine Softwaretools & Minispiele",
 		description: "App-Entwicklung mit C# und .NET Maui, Entwicklung eines Idle Games in Godot 4, Erstellung dieser Website mit Astro, uvm.",
 		languages: "C# & .NET Maui sowie WPF, Godot 4, Java & JavaFX, ...",
+		last_row: 'true'
 	}
 ]
 
@@ -100,7 +105,7 @@ export const education = [
 		from: "2017",
 		to: "2021",
 		institute: "Hochschule Osnabrück",
-		course: "Bioverfahrenstechnik in Agrar- und Lebensmittelwirtschaft (B.Sc.)",
+		course: "Bioverfahrenstechnik in Agrar- und Lebensmittelwirtschaft (B.Sc.) - Schwerpunkt Konzeption und Nutzung biotechnologischer Anlagen",
 		thesis: "Untersuchung prozessrelevanter Einflussfaktoren auf das rheologische Verhalten von Bierhefeextraktpasten.",
 		grade: "Abschlussnote: 1.9",
 		location: "Osnabrück",
@@ -112,7 +117,8 @@ export const education = [
 		institute: "Hannah Arendt Gymnasium",
 		course: "Abitur (Allgemeine Hochschulreife)",
 		grade: "Abschlussnote: 1.9",
-		location: "Lengerich"
+		location: "Lengerich",
+		last_row: 'true'
 	}
 ]
 
@@ -128,6 +134,7 @@ export const hobbies = [
 	{
 		title: "Krafttraining, Rennrad fahren, Wandern im Sommer, etc.",
 		description: "Regelmäßiges Training im Gym & Fahrradtouren",
+		last_row: 'true'
 	},  
 ]
 

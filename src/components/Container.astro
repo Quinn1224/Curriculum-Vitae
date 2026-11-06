@@ -9,6 +9,7 @@ import Card from "./Card.astro";
     <AccordionLayout title={"Beruflicher Werdegang"} icon={"ic:baseline-work-outline"}>
       {
         CONTENT.work.map((item) => {
+
           return (
             <Card
               title={item.role}
@@ -17,6 +18,7 @@ import Card from "./Card.astro";
               tags={item.skills}
               url={item.org_url}
               url_name={item.org}
+              last_row={item.last_row}
             />
           );
         })
@@ -31,10 +33,12 @@ import Card from "./Card.astro";
               timeframe={`${item.from} - ${item.to}`}
               description={item.location}
               thesis={item.thesis}
+              institute={item.institute}
               grade={item.grade}
               tags={""}
               url={item.url}
               url_name={item.institute}
+              last_row={item.last_row}
             />
           );
         })
@@ -51,6 +55,7 @@ import Card from "./Card.astro";
               tags={item.tech}
               url={item.url}
               url_name={"Github"}
+              last_row={item.last_row}
             />
           );
         })
@@ -66,6 +71,7 @@ import Card from "./Card.astro";
               tags={item.tech}
               url={item.url}
               url_name={item.institute}
+              last_row={item.last_row}
             />
           );
         })
