@@ -5,7 +5,28 @@ import Card from "./Card.astro";
 ---
 
 <ul class="shadow-box">
-   
+    <AccordionLayout title={"Persönliche Daten"} icon={"carbon:user"}>
+      <dl class="grid grid-cols-1 gap-x-8 gap-y-3 text-text/70 sm:grid-cols-2">
+        <div>
+          <dt class="text-sm text-text/50">Alter</dt>
+          <dd>{CONTENT.alter}</dd>
+        </div>
+        <div>
+          <dt class="text-sm text-text/50">Familienstand</dt>
+          <dd>{CONTENT.familienstand}</dd>
+        </div>
+        <div>
+          <dt class="text-sm text-text/50">Nationalität</dt>
+          <dd>{CONTENT.nationalität}</dd>
+        </div>
+        <div>
+          <dt class="text-sm text-text/50">Sprachen</dt>
+          <dd>{CONTENT.sprache_en}</dd>
+          <dd>{CONTENT.sprache_ch}</dd>
+        </div>
+      </dl>
+    </AccordionLayout>
+
     <AccordionLayout title={"Beruflicher Werdegang"} icon={"ic:baseline-work-outline"}>
       {
         CONTENT.work.map((item) => {
