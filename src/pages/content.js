@@ -12,6 +12,8 @@ export const familienstand = "ledig"
 export const nationalität = "deutsch"
 export const sprache_en = "Englisch - Verhandlungssicher in Wort und Schrift"
 export const sprache_ch = "Chinesisch - HSK 1"
+export const office = "Sicherer Umgang mit gängigen Office-Produkten und LaTeX"
+export const aiUsage = "Effektiver Einsatz von KI-Modellen zur Produktivitätssteigerung in Softwareprojekten"
 
 // Work Experience --> #work section
 export const work = [
@@ -142,10 +144,12 @@ export const hobbies = [
 	{
 		title: "Krafttraining, Rennrad fahren, etc.",
 		description: "Regelmäßiges Training im Gym & Fahrradtouren",
+	},
+	{
+		title: "Linux-vServer & Self-Hosting",
+		description: "Aktuell richte ich einen Linux-vServer mit verschiedenen selbst gehosteten Diensten ein, darunter Gitea, Nextcloud, Vaultwarden, etc.",
 		last_row: 'true'
-	},  
+	},
 ]
-
-
 
 
