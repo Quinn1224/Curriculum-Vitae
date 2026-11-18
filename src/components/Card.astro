@@ -3,7 +3,7 @@ import { Icon } from 'astro-icon/components';
 const { timeframe, title, description, url, tags, url_name, languages, thesis, grade, institute, last_row } = Astro.props
 ---
 
-<div class:list={["grid", timeframe ? " grid-cols-[25%_1fr_25%]" : " grid-cols-[1fr_30%]", " grid-rows-1 w-full p-2 place-items-center", last_row ? " " : " border-b-[1px] border-dashed", " py-2 border-text/25"]}>
+<div class:list={["cv-entry", timeframe && "cv-entry-timed", "grid", timeframe ? " grid-cols-[25%_1fr_25%]" : " grid-cols-[1fr_30%]", " grid-rows-1 w-full p-2 place-items-center", last_row ? " " : " border-b-[1px] border-dashed", " py-2 border-text/25"]}>
     {timeframe && (
         <div class="self-start justify-self-start">
             <p class="text-text/50 text-base">
@@ -33,7 +33,7 @@ const { timeframe, title, description, url, tags, url_name, languages, thesis, g
         <a href={url} target="_blank" class="text-base text-right text-text/60 hover:text-text/80 flex justify-center items-center">
             {url_name}
             {
-               url !== "#" && <Icon name="icon-park-outline:unlink" class="w-4 h-4 ml-2" />
+               url !== "#" && <Icon name="icon-park-outline:unlink" class="link-icon w-4 h-4 ml-2" />
             }
         </a>
          )}

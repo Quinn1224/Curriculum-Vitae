@@ -44,7 +44,8 @@ export const work = [
 	{
 		from: "2016",
 		to: "2017",
-		org: "SCHMIDT + HAENSCH GmbH & Co., EANTC AG, Harbauer GmbH",
+		org: "LIFE Bildung Umwelt Chancengleichheit e.V.",
+		org_url: "https://life-online.de/project/entertechnik/",
 		role: "Technisches Jahrespraktikum in den Bereichen Laborgerätebau, Softwaretesting und Umwelttechnik",
 		location: "Berlin",
 		skills: "Einmessen & Referenzdatenerhebung von Prozessrefraktometern, Softwaretesting und handwerkliche Arbeiten im umwelttechnischen Bereich.",
@@ -79,21 +80,21 @@ export const projects = [
 	},
 	{
 		title: "Youtube Shorts Remover",
-		description: "Ein kleines Firefox Add-In um Youtube Shorts & Playables auszublenden",
+		description: "Ein kleines Firefox Add-In um Youtube Shorts, Playables und den \"Hype\"-Bereich auszublenden",
 		languages: "JavaScript",
 		url: "https://github.com/Quinn1224/Youtube-Shorts-Remover",
 		tech: "Mozilla Firefox Add-In Verwaltung & Release, Git zur Versionierung",
 	},
 	{
-		title: "Scale Data Extractor",
-		description: "Skripte um die BLE Datenpakete einer Xiaomi S400 Waage auszulesen und mit Plotly anschließend grafisch aufzubereiten. Historische Daten können über eine API ebenfalls vollständig abgefragt & visualisiert werden.",
-		languages: "Python",
+		title: "Fitnesstracker Syncronizer",
+		description: "Skripte um Daten zwischen Fitnessanwendungen zu synchronisieren und per Plotly miteinander in Verbindung zu setzen",
+		languages: "Python, Automatisierung per Cron \& Incrond",
 		url: "",
 		tech: "Git zur Versionierung",
 	},
 	{
 		title: "Diverse weitere kleine Softwaretools & Minispiele",
-		description: "App-Entwicklung mit C# und .NET Maui, Entwicklung eines Idle Games in Godot 4, Erstellung dieser Website mit Astro, uvm.",
+		description: "App-Entwicklung mit C# und .NET Maui, Entwicklung eines Idle Games in Godot 4, Erstellung dieser Website mit Astro, DHL Versandstatusabfrage als CLI-Tool, uvm.",
 		languages: "C# & .NET Maui sowie WPF, Godot 4, Java & JavaFX, ...",
 		last_row: 'true'
 	}
