@@ -7,6 +7,12 @@ export const tel = "0157 55181980"
 export const address1 = "Marie-Curie-Str. 31"
 export const address2 = "91052 Erlangen"
 
+export const alter = "29"
+export const familienstand = "ledig"
+export const nationalität = "deutsch"
+export const sprache_en = "Englisch - Verhandlungssicher in Wort und Schrift"
+export const sprache_ch = "Chinesisch - HSK 1"
+
 // Work Experience --> #work section
 export const work = [
 	{
@@ -36,6 +42,7 @@ export const work = [
 	{
 		from: "2016",
 		to: "2017",
+		org: "SCHMIDT + HAENSCH GmbH & Co., EANTC AG, Harbauer GmbH",
 		role: "Technisches Jahrespraktikum in den Bereichen Laborgerätebau, Softwaretesting und Umwelttechnik",
 		location: "Berlin",
 		skills: "Einmessen & Referenzdatenerhebung von Prozessrefraktometern, Softwaretesting und handwerkliche Arbeiten im umwelttechnischen Bereich.",
@@ -44,7 +51,7 @@ export const work = [
 	{
 		from: "2016",
 		to: "2021",
-		role: "Diverse Aushilfs- und Saisonjobs neben Studium und Arbeit in Taschenproduktion, Einzelhandel, Möbelbau und E-Commerce",
+		role: "Diverse Neben- und Saisonjobs neben Studium und Arbeit in Taschenproduktion, Einzelhandel, Möbelbau und E-Commerce",
 		skills: "Handwerkliches & Arbeiten rund um Bestellprozesse sowie kleine Automatisierungen mit Google Apps Script.",
 		last_row: 'true'
 	}, 
@@ -99,7 +106,7 @@ export const education = [
 		course: "Informatik (B.Sc.)",
 		grade: "Aktueller Durchschnitt: 2.1",
 		location: "Erlangen",	
-		url: "https://www.fau.de/"	
+		url: "https://www.fau.de/studiengang/informatik-b-sc/"	
 	},
 	{
 		from: "2017",
@@ -109,7 +116,7 @@ export const education = [
 		thesis: "Untersuchung prozessrelevanter Einflussfaktoren auf das rheologische Verhalten von Bierhefeextraktpasten.",
 		grade: "Abschlussnote: 1.9",
 		location: "Osnabrück",
-		url: "https://www.hs-osnabrueck.de/"	
+		url: "https://www.hs-osnabrueck.de/studium/studienangebot/bachelor/bioverfahrenstechnik-in-agrar-und-lebensmittelwirtschaft-bsc/"	
 	},
 	{
 		from: "2008",
@@ -117,6 +124,7 @@ export const education = [
 		institute: "Hannah Arendt Gymnasium",
 		course: "Abitur (Allgemeine Hochschulreife)",
 		grade: "Abschlussnote: 1.9",
+		url: "https://www.hag-lengerich.de/",
 		location: "Lengerich",
 		last_row: 'true'
 	}
@@ -126,13 +134,13 @@ export const education = [
 export const hobbies = [
 	{
 		title: "American Football",
-		description: "Ich spiele seit 2 Jahren bei den TB Rebels in Erlangen. Die Football-Seite auf der Website des Sportvereins ist ebenfalls von mir :)",
+		description: "Ich spiele seit 2 Jahren bei den TB Rebels in Erlangen. Die Football-Seite auf der Website des Sportvereins ist ebenfalls von mir gestaltet.",
 		institute: "Turnerbund Erlangen",
 		url: "https://turnerbund.de/football/",
 		tech: "Wordpress",
 	},
 	{
-		title: "Krafttraining, Rennrad fahren, Wandern im Sommer, etc.",
+		title: "Krafttraining, Rennrad fahren, etc.",
 		description: "Regelmäßiges Training im Gym & Fahrradtouren",
 		last_row: 'true'
 	},  
