@@ -67,6 +67,7 @@ export const projects = [
 		description: "Ein Online Shop um Merchandise der Erlangen Rebels zu verkaufen. Die Produkte & Bestellungen sind über eine Administrationsoberfläche ohne Programmierkenntnisse frei konfigurierbar & verwaltbar.",
 		languages: "Python mit Framework Django, HTML & CSS",
 		url: "https://shop.erlangenrebels.duckdns.org/",
+		url_name: "Zur Website",
 		tech: "Konfiguration eines Webservers mit nginx, Docker, Versions- & Release Management mit Git, Zertifikatsmanagement mit Certbot. Anbindung SendGrid für E-Mail Versand, Domain für Entwicklungsphase per DuckDNS.",
 	},
 	{
@@ -76,6 +77,7 @@ export const projects = [
 		+"Spieler*innen erhalten Punkte, Statistik und Einblick in ein Teaminternes Leaderboard. Das Quiz verfügt über ein Nutzermanagement mit Authentifizierung.",
 		languages: "Python mit Framework Django, HTML, CSS",
 		url: "https://quiz.erlangenrebels.duckdns.org",
+		url_name: "Zur Website",
 		tech: "Konfiguration eines Webservers mit nginx, Docker, Versions- & Release Management mit Git, Zertifikatsmanagement mit Certbot, Domain für Entwicklungsphase per DuckDNS. ",
 	},
 	{
@@ -83,13 +85,14 @@ export const projects = [
 		description: "Ein kleines Firefox Add-In um Youtube Shorts, Playables und den \"Hype\"-Bereich auszublenden",
 		languages: "JavaScript",
 		url: "https://github.com/Quinn1224/Youtube-Shorts-Remover",
+		url_name: "Zum Quellcode",
 		tech: "Mozilla Firefox Add-In Verwaltung & Release, Git zur Versionierung",
 	},
 	{
 		title: "Fitnesstracker Syncronizer",
 		description: "Skripte um Daten zwischen Fitnessanwendungen zu synchronisieren und per Plotly miteinander in Verbindung zu setzen",
 		languages: "Python, Automatisierung per Cron \& Incrond",
-		url: "",
+		url_name: "Noch nicht veröffentlicht",
 		tech: "Git zur Versionierung",
 	},
 	{

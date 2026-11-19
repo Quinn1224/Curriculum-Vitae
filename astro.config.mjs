@@ -5,6 +5,8 @@ import alpinejs from '@astrojs/alpinejs';
 
 export default defineConfig({
   integrations: [icon(), alpinejs()],
+  output: 'static',
+  outDir: '/var/www/cv',
   vite: {
     plugins: [tailwindcss()],
   },
