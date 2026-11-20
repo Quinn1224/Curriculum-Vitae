@@ -1,0 +1,239 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage[default]{lato}
+\usepackage{microtype, csquotes}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{paracol}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+% Seitenränder (A4)
+\geometry{
+  left=12mm,
+  right=12mm,
+  top=13mm,
+  bottom=13mm
+}
+
+% Farbpalette
+\definecolor{sidebarbg}{HTML}{F4F6F9}
+\definecolor{accent}{HTML}{1E3A5F}
+\definecolor{textdark}{HTML}{222222}
+\definecolor{textmuted}{HTML}{555555}
+\definecolor{rulecolor}{HTML}{D0D7DE}
+
+\color{textdark}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\renewcommand{\baselinestretch}{1.12}
+
+% Spaltenverhältnis: 35% links, 65% rechts
+\columnratio{0.35}
+\setlength{\columnsep}{18pt}
+\backgroundcolor{c[0]}{sidebarbg}
+
+% Makro für Überschriften in der linken Spalte
+\newcommand{\sideheading}[1]{%
+  \vspace{11pt}%
+  {\large\bfseries\color{accent}\MakeUppercase{#1}}\par
+  \vspace{2pt}%
+  {\color{rulecolor}\hrule height 0.6pt}%
+  \vspace{6pt}%
+}
+
+% Makro für Überschriften in der rechten Spalte
+\newcommand{\mainheading}[1]{%
+  \vspace{12pt}%
+  {\large\bfseries\color{accent}\MakeUppercase{#1}}\par
+  \vspace{2pt}%
+  {\color{accent}\hrule height 0.8pt}%
+  \vspace{8pt}%
+}
+
+% Makro für Stationen (Titel links mit Umbruch, Datum rechtsbündig fixiert)
+\newcommand{\cventry}[2]{%
+  \begin{tabularx}{\linewidth}{@{}X@{\hspace{10pt}}r@{}}
+    \textbf{#1} & {\small\color{textmuted}#2} \\
+  \end{tabularx}\par\vspace{1pt}%
+}
+
+% Aufzählungslisten
+\setlist[itemize]{leftmargin=13pt, topsep=4pt, itemsep=3pt, parsep=0pt}
+
+\begin{document}
+
+\begin{paracol}{2}
+
+% =================================================================
+% LINKE SPALTE (sauber begrenzt durch minipage mit 10pt Rand)
+% =================================================================
+\begin{leftcolumn}
+\hspace*{10pt}%
+\begin{minipage}[t]{\dimexpr\columnwidth-20pt\relax}
+\vspace*{6pt}
+\small
+\raggedright % Verhindert überlange Zeilen und erzwungene Worttrennungen
+
+\sideheading{Kontakt}
+\begin{tabularx}{\linewidth}{@{}l@{\hspace{8pt}}X@{}}
+  \textcolor{accent}{\faMapMarker*} & Marie-Curie-Str. 31 \\
+                                    & Apt. 111\\
+                                    & 91052 Erlangen \\[4pt]
+  \textcolor{accent}{\faPhone*}     & 0157 55181980 \\[4pt]
+  \textcolor{accent}{\faEnvelope}   & \href{mailto:verena.mennen@outlook.de}{verena.mennen@outlook.de} \\
+\end{tabularx}
+
+\sideheading{Links}
+\begin{tabularx}{\linewidth}{@{}l@{\hspace{8pt}}X@{}}
+  \textcolor{accent}{\faGlobe}  & \href{https://verenamennen.dev/}{verenamennen.dev} \\[4pt]
+  \textcolor{accent}{\faGithub} & \href{https://github.com/Quinn1224}{github.com/Quinn1224} \\
+\end{tabularx}
+
+\sideheading{Persönliche Daten}
+\begin{tabularx}{\linewidth}{@{}l@{\hspace{8pt}}X@{}}
+  \textbf{Alter:}         & 29 \\
+  \textbf{Familienstand:} & ledig \\
+  \textbf{Nationalität:}  & deutsch \\
+\end{tabularx}
+
+\sideheading{Tech-Stack \& Skills}
+\textbf{Sprachen \& Frameworks}\\
+C\# / WPF, MS SQL,\\
+Python 3 (u. a. Framework Django),\\
+Godot 4, Java (u. a. JavaFX), u.\,v.\,m.\\
+
+\vspace{6pt}
+\textbf{Tools \& Infrastruktur}\\
+Git, Linux-vServer \& Self-Hosting, LaTeX, MS Office
+
+
+\vspace{6pt}
+\textbf{KI-Einsatz}\\
+Effektiver Einsatz von KI-Modellen zur Produktivitätssteigerung in Softwareprojekten
+
+\sideheading{Sprachen}
+\begin{itemize}[leftmargin=10pt, topsep=2pt, itemsep=3pt]
+  \item \textbf{Deutsch} -- Muttersprache
+  \item \textbf{Englisch} -- Verhandlungssicher in Wort und Schrift
+  \item \textbf{Chinesisch} -- Grundkenntnisse (HSK 1), weitere HSK Stufen sind geplant.
+\end{itemize}
+
+\end{minipage}
+\end{leftcolumn}
+
+% =================================================================
+% RECHTE SPALTE (Name, Berufserfahrung, Bildungsweg, Projekte, Interessen)
+% =================================================================
+\begin{rightcolumn}
+\vspace*{4pt}
+
+% Kopfbereich mit Name & Titel
+{\Huge\bfseries\color{accent} Verena Mennen}\par
+\vspace{3pt}
+{\Large\color{textmuted} Software Developer}\par
+\vspace{6pt}
+
+% --- BERUFSERFAHRUNG ---
+\mainheading{Berufserfahrung}
+
+\cventry{Project Engineer}{2023 -- heute}
+{\small\textit{\href{https://www.proleit.de/}{ProLeiT}, Herzogenaurach}}
+\begin{itemize}
+  \item Kundenspezifische Softwarelösungen sowie Standardisierung im \textit{Plant iT}-System mit Schwerpunkt C\#/WPF und SQL.
+  \item Entwicklung von Operation Manager Add-Ins, Bediendialogen und Hochrüstungen der Automatisierungsklassen (Dialog \& Datenbank).
+  \item Erstellung verschiedenster Datenverarbeitungsskripte in SQL, BOS-Skripte u.\,v.\,m.
+\end{itemize}
+\vspace{9pt}
+
+\cventry{Trainee Software Application Engineer}{2021 -- 2023}
+{\small\textit{\href{https://www.proleit.de/}{ProLeiT}, Herzogenaurach}}
+\begin{itemize}
+  \item Schwerpunkt MES \& Hochsprachen; Mitarbeit an Softwareprojekten im Bereich Datenbanken und Schnittstellen sowie Softwaretesting.
+  \item Erstellung von Hochrüstungspaketen (Update iTs) für Automatisierungsklassen sowie Bediendialoge für zahlreiche Automatisierungsklassen.
+  \item Teilnahme und praktische Anwendung von Schulungen zu  C\#, SQL, Batch iT, Step 7 AWL, VBA.
+\end{itemize}
+\vspace{9pt}
+
+\cventry{Neben- und Saisonjobs}{2016 -- 2021}
+{\small\textit{Taschenproduktion, Einzelhandel, Möbelbau und E-Commerce}}
+\begin{itemize}
+  \item Handwerkliche Tätigkeiten, Abwicklung von Bestellprozessen sowie kleinere Prozessautomatisierungen mit Google Apps Script.
+\end{itemize}
+\vspace{9pt}
+
+\cventry{Technisches Jahrespraktikum}{2016 -- 2017}
+{\small\textit{\href{https://life-online.de/project/entertechnik/}{LIFE Bildung Umwelt Chancengleichheit e.V.}, Berlin}}
+\begin{itemize}
+  \item Schwerpunkte Laborgerätebau, Softwaretesting und Umwelttechnik.
+  \item Einmessen und Referenzdatenerhebung von Prozessrefraktometern sowie handwerkliche Arbeiten im umwelttechnischen Bereich.
+\end{itemize}
+
+% --- BILDUNGSWEG ---
+\mainheading{Bildungsweg}
+
+\cventry{Informatik (B.Sc.)}{2023 -- vrs. Mitte 2027}
+{\small\textit{\href{https://www.fau.de/}{Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)}, Erlangen}}\\
+{\small Aktueller Durchschnitt: 2,1}
+\vspace{9pt}
+
+\cventry{Bioverfahrenstechnik in Agrar- und Lebensmittelwirtschaft (B.Sc.)}{2017 -- 2021}
+{\small\textit{\href{https://www.hs-osnabrueck.de/}{Hochschule Osnabrück}, Osnabrück}}\\
+{\small Abschlussnote: 1,9}\\
+{\small Schwerpunkt: Konzeption und Nutzung biotechnologischer Anlagen}\\
+{\small Bachelorarbeit: \textit{„Untersuchung prozessrelevanter Einflussfaktoren auf das rheologische Verhalten von Bierhefeextraktpasten.“}}
+\vspace{9pt}
+
+\cventry{Abitur (Allgemeine Hochschulreife)}{2008 -- 2016}
+{\small\textit{\href{https://www.hag-lengerich.de/}{Hannah-Arendt-Gymnasium}, Lengerich}}\\
+{\small Abschlussnote: 1,9}\\
+
+% --- AUSGEWÄHLTE PROJEKTE ---
+\mainheading{Ausgewählte Freizeit Softwareprojekte}
+
+\cventry{Merchandise Shop (Erlangen Rebels) \& Football Quiz}{aktuell in Entwicklung}
+{\small\textit{Python (Django) mit HTML/CSS Frontend und nginx Reverse Proxy. Docker (inkl Imagegenerierung per Github Actions)\& Zertifikat per Certbot.}}
+\begin{itemize}
+  \item Ein Online Shop um Merchandise der Erlangen Rebels zu verkaufen. Die Produkte \& Bestellungen sind über eine Administrationsoberfläche ohne Programmierkenntnisse frei konfigurierbar \& verwaltbar.
+  \vspace{3pt}\\
+  Ein Prototyp ist aktuell erreichbar unter: \href{https://shop.erlangenrebels.duckdns.org/}{shop.erlangenrebels.duckdns.org}.
+  \item Lernplattform für American Football Regelwerk und teamspezifisches Playbook mit Nutzermanagement, 
+  verschiedenen Fragetypen (Multiple Choice Text/Bild, Informationskarte, etc.), Statistik und teaminternem Leaderboard.
+  \vspace{3pt}\\
+  Ein Prototyp ist aktuell erreichbar unter: \href{https://quiz.erlangenrebels.duckdns.org/}{quiz.erlangenrebels.duckdns.org}.
+\end{itemize}
+\vspace{8pt}
+
+
+\cventry{YouTube Cleaner}{\href{https://github.com/Quinn1224/Youtube-Cleaner}{GitHub}}
+{\small\textit{JavaScript, Mozilla Firefox Add-on}}
+\begin{itemize}
+  \item Browser-Erweiterung zum Ausblenden von YouTube Shorts, Playables und \textquotedbl Von Youtube empfohlen\textquotedbl - Bereichen.
+\end{itemize}
+\vspace{8pt}
+
+\cventry{Fitnesstracker Synchronizer}{aktuell noch nicht veröffentlicht}
+{\small\textit{Python (Plotly), bash, Sheduling/Trigger per Cron/Incrond}}
+\begin{itemize}
+  \item Automatisierung der Datensynchronisation und -visualisierung zwischen verschiedenen Fitness-Apps und Datenaufbereitung.
+\end{itemize}
+
+% --- INTERESSEN ---
+\mainheading{Interessen \& Engagement}
+
+\begin{itemize}
+  \item \textbf{American Football:} Aktive Spielerin bei den TB Rebels Erlangen \& Gestaltung der Football-Abteilungsseite auf der Vereinswebsite (WordPress).
+  \item \textbf{Linux \& Self-Hosting:} Einrichtung und Betrieb eines eigenen Linux-vServers mit selbst gehosteten Diensten (u.\,a. Gitea, Nextcloud, Vaultwarden).
+  \item \textbf{Sport:} Regelmäßiges Krafttraining, Rennradfahren, Eislaufen, u.\,v.\,m..
+  \item \textbf{Geschichte:} Allgemeines geschichtliches Interesse, insb. 20 Jhd.
+\end{itemize}
+
+\end{rightcolumn}
+
+\end{paracol}
+\end{document}
