@@ -81,10 +81,10 @@ export const projects = [
 		tech: "Konfiguration eines Webservers mit nginx, Docker, Versions- & Release Management mit Git, Zertifikatsmanagement mit Certbot, Domain für Entwicklungsphase per DuckDNS. ",
 	},
 	{
-		title: "Youtube Shorts Remover",
-		description: "Ein kleines Firefox Add-In um Youtube Shorts, Playables und den \"Hype\"-Bereich auszublenden",
+		title: "Youtube Cleaner",
+		description: "Ein kleines Firefox Add-In um Youtube Shorts, Playables und den \"Von Youtube Empfohlen\"-Bereich auszublenden",
 		languages: "JavaScript",
-		url: "https://github.com/Quinn1224/Youtube-Shorts-Remover",
+		url: "https://github.com/Quinn1224/Youtube-Cleaner",
 		url_name: "Zum Quellcode",
 		tech: "Mozilla Firefox Add-In Verwaltung & Release, Git zur Versionierung",
 	},
@@ -97,7 +97,7 @@ export const projects = [
 	},
 	{
 		title: "Diverse weitere kleine Softwaretools & Minispiele",
-		description: "App-Entwicklung mit C# und .NET Maui, Entwicklung eines Idle Games in Godot 4, Erstellung dieser Website mit Astro, DHL Versandstatusabfrage als CLI-Tool, uvm.",
+		description: "App-Entwicklung mit C# und .NET Maui, Entwicklung eines Idle Games & Lehrsimulator Launchers in Godot 4 im Rahmen eines Uni Projekts, Erstellung dieser Website mit Astro, DHL Versandstatusabfrage als CLI-Tool, uvm.",
 		languages: "C# & .NET Maui sowie WPF, Godot 4, Java & JavaFX, ...",
 		last_row: 'true'
 	}
@@ -151,7 +151,11 @@ export const hobbies = [
 	},
 	{
 		title: "Linux-vServer & Self-Hosting",
-		description: "Aktuell richte ich einen Linux-vServer mit verschiedenen selbst gehosteten Diensten ein, darunter Gitea, Nextcloud, Vaultwarden, etc.",
+		description: "Aktuell richte ich einen Linux-vServer mit verschiedenen selbst gehosteten Diensten ein, darunter Gitea, Nextcloud, Vaultwarden, Nutritrace, etc.",
+	},
+	{
+		title: "Geschichtliche",
+		description: "Allgemeines geschichtliches Interesse, insbesondere 20. Jhd",
 		last_row: 'true'
 	},
 ]

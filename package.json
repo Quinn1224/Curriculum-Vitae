@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build:resume": "mkdir -p public/PDF .resume-build && latexmk -pdf -outdir=public/PDF -auxdir=.resume-build src/resume/Lebenslauf.tex && latexmk -c -outdir=public/PDF -auxdir=.resume-build src/resume/Lebenslauf.tex && rm -f .resume-build/Lebenslauf.synctex.gz && rmdir .resume-build",
+    "build:resume": "mkdir -p public/PDF .resume-build && latexmk -pdf -outdir=public/PDF -auxdir=.resume-build src/resume/Lebenslauf_Verena_Mennen.tex && latexmk -c -outdir=public/PDF -auxdir=.resume-build src/resume/Lebenslauf_Verena_Mennen.tex && rm -f .resume-build/Lebenslauf_Verena_Mennen.synctex.gz && rmdir .resume-build",
     "prebuild": "npm run build:resume",
     "build": "astro build",
     "preview": "astro preview",
