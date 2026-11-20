@@ -1,0 +1,14 @@
+{
+  "latex-workshop.latex.outDir": "%DIR%/../../public/PDF",
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux",
+    "*.bbl",
+    "*.blg",
+    "*.fdb_latexmk",
+    "*.fls",
+    "*.log",
+    "*.out",
+    "*.synctex.gz"
+  ]
+}

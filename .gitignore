@@ -20,3 +20,11 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+#LaTeX
+.aux
+.fdb_latexmk
+.log
+.out
+.fls
+.synctex.gz
