@@ -32,12 +32,13 @@ import Footer from "../components/Footer.astro";
 			<Container />
 		</main>
 		<div class="print-controls mx-auto flex max-w-3xl justify-end px-5 pb-3 w-[95vw]">
-			<button
-				type="button"
+			<a
+				href="/PDF/Lebenslauf.pdf"
+				download="Lebenslauf.pdf"
 				class="rounded bg-primary px-4 py-2 text-text hover:bg-primary/80"
-				onclick="window.print()">
-				Lebenslauf drucken
-			</button>
+			>
+				Lebenslauf herunterladen
+			</a>
 		</div>
 		<Footer />
 	</body>
