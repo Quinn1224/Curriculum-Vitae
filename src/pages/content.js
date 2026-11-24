@@ -90,7 +90,7 @@ export const projects = [
 	},
 	{
 		title: "Fitnesstracker Syncronizer",
-		description: "Skripte um Daten zwischen Fitnessanwendungen zu synchronisieren und per Plotly miteinander in Verbindung zu setzen",
+		description: "Skripte um Daten zwischen Fitnessanwendungen zu synchronisieren, BLE Datenpakete auszulesen und die Daten miteinander in Verbindung zu setzen.",
 		languages: "Python, Automatisierung per Cron \& Incrond",
 		url_name: "Noch nicht veröffentlicht",
 		tech: "Git zur Versionierung",
@@ -155,7 +155,7 @@ export const hobbies = [
 	},
 	{
 		title: "Geschichtliche",
-		description: "Allgemeines geschichtliches Interesse, insbesondere 20. Jhd",
+		description: "Allgemeines geschichtliches Interesse, insbesondere 20. Jhd.",
 		last_row: 'true'
 	},
 ]
