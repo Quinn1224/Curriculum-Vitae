@@ -30,7 +30,7 @@ export const work = [
 		
 	}, 
 	{
-		from: "2001",
+		from: "2021",
 		to: "2023",
 		role: "Trainee Software Application Engineer",
 		org: "ProLeiT",
